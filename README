@@ -1,5 +1,15 @@
 == Cafespitfire
 
-Web pages of cafespitfire bar
+Web pages of cafespitfire bar implemented with refinery CMS
 
 URL: www.cafespitfire.cz
+
+To run pages clone this repo, create rvm gemset like:
+    rvm --create 1.9.2@csf
+run bundler:
+    bundle install
+and migrate:
+    rake db:migrate RAILS_ENV=environment
+run the server:
+    rails server
+
