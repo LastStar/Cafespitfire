@@ -1,0 +1,6 @@
+<ul class='mn'>
+  <%= render :partial => '/shared/menu_branch', :collection => @menu_pages,
+             :locals => {
+               :apply_css => false #if you don't care about class='first' class='last' or class='selected' set apply_css to false for speed.
+             } -%>
+</ul>

@@ -1,4 +1,197 @@
-/*
-  Override default refinery application CSS below.
-  Formatting applies to all frontend.
-*/
+/* @font-face { font-family: arialn; font-weight: bold; src: url('arialnb.ttf'); } */
+/* General */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family:Cambria,'Times New Roman',serif;
+  font-size: 12px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+body.page_1 {
+  background-image: url(bga.jpg);
+}
+
+body.page_2 {
+  background-image: url(bga.jpg);
+}
+
+body.page_3 {
+  background-image: url(bge.jpg);
+}
+
+body.page_4 {
+  background-image: url(bgb.jpg);
+}
+
+body.page_5 {
+  background-image: url(bgf.jpg);
+}
+
+body.page_6 {
+  background-image: url(bgc.jpg);
+}
+
+body.page_7 {
+  background-image: url(bgd.jpg);
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  width: 410px;
+  padding-right: 20px;
+  padding-bottom: 15px;
+  text-shadow: rgba(255,255,255,0.3) 0px 1px 1px;
+  line-height: 16px;
+}
+
+h1.openings {
+  text-indent: -9000px;
+  background: url(openings.png) no-repeat 3px top;
+  height: 120px;
+}
+
+h2 {
+  font-size: 15px;
+  padding-bottom: 3px;
+  text-shadow: rgba(255,255,255,0.3) 0px 1px 1px;
+}
+
+.left {
+  float: left;
+}
+
+.right {
+  float: right;
+}
+
+/* Layout - Wrapper */
+
+.wrapper {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+/* Layout - Header */
+
+.hdr {
+  height: 103px;
+}
+
+.hdr a {
+  display: inline-block;
+  width: 227px;
+  height: 48px;
+  margin: 20px 0 0 50px;
+  background: url(logo.png) no-repeat;
+}
+
+/* Layout - Menu */
+
+.mn {
+  width: 120px;
+  float: left;
+}
+
+.mn li {
+  list-style: none;
+}
+
+.mn li a {
+  text-decoration: none;
+  outline: none;
+  text-indent: -9000px;
+  display: block;
+  width: 120px;
+  height: 20px;
+  margin-bottom: 15px;
+  background: url(btns.png) no-repeat right top;
+}
+
+.mn li a.item_0 { background-position: -117px 0; }
+.mn li a.item_1 { background-position: -117px -35px; }
+.mn li a.item_2 { background-position: -117px -72px; }
+.mn li a.item_3 { background-position: -117px -107px; }
+.mn li a.item_4 { background-position: -117px -144px; }
+
+.mn li a.item_0:hover, .mn li.active a.item_0 { background-position: 3px 0; }
+.mn li a.item_1:hover, .mn li.active a.item_1 { background-position: 3px -35px; }
+.mn li a.item_2:hover, .mn li.active a.item_2 { background-position: 3px -72px; }
+.mn li a.item_3:hover, .mn li.active a.item_3 { background-position: 3px -107px; }
+.mn li a.item_4:hover, .mn li.active a.item_4 { background-position: 3px -144px; }
+
+/* Layout - Content */
+
+.ct {
+  position: relative;
+  margin-left: 140px;
+  width: 860px;
+  overflow: hidden;
+  padding-bottom: 30px;
+}
+
+.ct.intro {
+  margin-top: -13px;
+}
+
+.ct .clmn-drink {
+  width: 260px;
+  padding-right: 25px;
+  float: left;
+}
+
+.ct .clmn-drink ul {
+  padding-bottom: 20px;
+}
+
+.ct .clmn-drink li {
+  list-style: none;
+  font-size: 12px;
+  line-height: 16px;
+}
+
+.ct .clmn-drink h2 .litre,
+.ct .clmn-drink li .litre,
+.ct .clmn-drink li .price {
+  display: inline-block;
+  font-size: 12px;
+  font-weight: normal;
+  width: 45px;
+  float: right;
+}
+
+.ct .clmn-drink h2 .litre {
+  width: 90px;
+}
+
+.ct .clmn-drink li .price {
+  text-align: right;
+}
+
+.ct .contact-info {
+  margin-top: 620px;
+}
+
+.ct p {
+  float: left;
+}
+
+/* Map */
+
+.map {
+  position: absolute;
+  z-index: -1;
+  margin: 90px 0 0 70px;
+}
