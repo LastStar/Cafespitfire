@@ -1,4 +1,3 @@
-/* @font-face { font-family: arialn; font-weight: bold; src: url('arialnb.ttf'); } */
 /* General */
 
 * {
@@ -14,31 +13,31 @@ body {
 }
 
 body.page_1 {
-  background-image: url(bga.jpg);
+  background-image: url(/images/bga.jpg);
 }
 
 body.page_2 {
-  background-image: url(bga.jpg);
+  background-image: url(/images/bga.jpg);
 }
 
 body.page_3 {
-  background-image: url(bge.jpg);
+  background-image: url(/images/bge.jpg);
 }
 
 body.page_4 {
-  background-image: url(bgb.jpg);
+  background-image: url(/images/bgb.jpg);
 }
 
 body.page_5 {
-  background-image: url(bgf.jpg);
+  background-image: url(/images/bgf.jpg);
 }
 
 body.page_6 {
-  background-image: url(bgc.jpg);
+  background-image: url(/images/bgc.jpg);
 }
 
 body.page_7 {
-  background-image: url(bgd.jpg);
+  background-image: url(/images/bgd.jpg);
 }
 
 a {
@@ -95,7 +94,8 @@ h2 {
   width: 227px;
   height: 48px;
   margin: 20px 0 0 50px;
-  background: url(logo.png) no-repeat;
+  background: url(/images/logo.png) no-repeat;
+  text-indent: -9000px;
 }
 
 /* Layout - Menu */
@@ -117,7 +117,7 @@ h2 {
   width: 120px;
   height: 20px;
   margin-bottom: 15px;
-  background: url(btns.png) no-repeat right top;
+  background: url(/images/btns.png) no-repeat right top;
 }
 
 .mn li a.item_0 { background-position: -117px 0; }
