@@ -1,11 +1,8 @@
 <% content_for :body_id, "class='page_#{@page.id}'" %>
 <div class="ct">
   <h2><%= @page[:title] %></h2>
-  <p class="left">
-    <%=raw @page[:body] %>
-  </p>
 
-  <p class="left">
-   <%=raw @page[:side_body] %>
-  </p>
+  <%=raw @page[:body] %>
+
+  <%=raw @page[:side_body] %>
 </div>
