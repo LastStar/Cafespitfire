@@ -40,6 +40,10 @@ body.page_7 {
   background-image: url(/images/bgd.jpg);
 }
 
+body.page_8 {
+  background-image: url(/images/bgh.jpg);
+}
+
 a {
   text-decoration: none;
 }
