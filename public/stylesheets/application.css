@@ -93,7 +93,7 @@ h2 {
   display: inline-block;
   width: 227px;
   height: 48px;
-  margin: 20px 0 0 50px;
+  margin: 22px 0 0 47px;
   background: url(/images/logo.png) no-repeat;
   text-indent: -9000px;
 }
@@ -166,7 +166,7 @@ h2 {
 .ct .clmn-drink li .litre,
 .ct .clmn-drink li .price {
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: normal;
   width: 45px;
   float: right;
