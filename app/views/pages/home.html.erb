@@ -1,8 +1,8 @@
-<% content_for :body_id, "class='page_#{@page.id}'" %>
+<% content_for :body_id, "class='page_#{@page.id}'".html_safe %>
 <div class="ct">
-  <h2><%= @page[:title] %></h2>
+  <h2><%= @page.content_for(:title) %></h2>
 
-  <%=raw @page[:body] %>
+  <%=raw @page.content_for(:body) %>
 
-  <%=raw @page[:side_body] %>
+  <%=raw @page.content_for(:side_body) %>
 </div>
