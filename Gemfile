@@ -36,7 +36,8 @@ gem 'sqlite3-ruby', '1.3.3'
 # REFINERY CMS ================================================================
 # Anything you put in here will be overridden when the app gets updated.
 
-gem 'refinerycms',              '~> 1.0.3'
+gem 'seo_meta', '1.3'
+gem 'refinerycms', '= 1.0.11'
 
 group :development, :test do
   # To use refinerycms-testing, uncomment it (if it's commented out) and run 'bundle install'
